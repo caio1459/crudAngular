@@ -1,0 +1,23 @@
+.demo-table {
+    width: 100%;
+}
+
+.mat-mdc-row .mat-mdc-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+    border-color: currentColor;
+    transition: 0.8s;
+    background-color: rgb(230, 227, 227);
+    color: blueviolet;
+}
+.container{
+    padding: 50px 
+}
+.new{
+    margin: -20px 0px 20px;
+    border-radius: 20px;
+}
